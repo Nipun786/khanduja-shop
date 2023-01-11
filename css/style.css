@@ -2,20 +2,38 @@
 /* 
 * Trunk version 2.0.1
 */
+#management {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.slider-caption{
+  top: 100px;
+}
+.slider-caption .container p{
+  /* color: rgb(115, 255, 0); */
+  font-size: 20px;
+  font-weight: 600;
+}
+.profile-creative__header img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 /* carousel  */
-.card{
-    
-  border:none;
+.card {
+  border: none;
 }
 
-.user-content p{
-  margin-top:5px;
-  font-size:12px;
+.user-content p {
+  margin-top: 5px;
+  font-size: 12px;
 }
 
-.ratings i{
-  color:blue;
+.ratings i {
+  color: blue;
 }
 
 /* carousel  */
@@ -14968,6 +14986,7 @@ html.boxed .rd-navbar--is-clone {
 
 .swiper-slide-caption {
   width: 100%;
+  top:100px;
 }
 
 .section-parallax-swiper {
