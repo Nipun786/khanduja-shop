@@ -15,6 +15,7 @@
   font-size: 20px;
   font-weight: 600;
 }
+
 .profile-creative__header img{
   display: block;
   margin-left: auto;
@@ -183,6 +184,18 @@ p img {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 700px) {
+  #send_messge{
+    margin-left: -300px;
+    padding-left: -5%;
+  }
+
+  #send_message button{
+    margin-left: -300px;
+    padding-left: -5%;
+  }
+}
+
 @media (min-width: 768px) {
   p img {
     float: left;
@@ -247,7 +260,7 @@ p [data-toggle="tooltip"] {
 
 /*
 *
-* Typography
+* Explore
 */
 h1,
 h2,
