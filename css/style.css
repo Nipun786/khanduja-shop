@@ -15056,7 +15056,16 @@ html.boxed .rd-navbar--is-clone {
     );
   }
 }
-
+@media (max-width:768px){
+  .swiper-slide-caption > .container > h1{
+    display: none;
+  }
+  .swiper-slide-caption > .container > a{
+    position: relative;
+    left: 23%;
+    bottom: 15px;
+  }
+}
 @media (min-width: 768px) {
   .swiper-slider_style-1 .swiper-slide-caption {
     padding: 100px 0 200px;
