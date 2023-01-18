@@ -183,7 +183,6 @@ img {
 p img {
   margin-bottom: 10px;
 }
-
 @media screen and (max-width: 700px) {
   #send_messge {
     margin-left: -300px;
@@ -197,6 +196,11 @@ p img {
   .slider-caption > .container > p {
     font-size: 17px;
     font-weight: 600;
+  }
+
+  #videoPoster[poster] {
+    background-size: cover;
+    background-position: center;
   }
 }
 
